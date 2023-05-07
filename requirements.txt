@@ -1,6 +1,6 @@
-pytorch=1.12.1           # deep learning library
-pytorch-mutex=1.0=cuda   # pytorch-mutex
-torchaudio=0.12.1        # audio library for PyTorch
+pytorch==1.12.1           # deep learning library
+# pytorch-mutex=1.0=cuda   # pytorch-mutex
+torchaudio==0.12.1        # audio library for PyTorch
 torchvision=0.13.1       # image and video datasets and models for torch deep learning
 accelerate==0.16.0       # python package to accelerate PyTorch
 aiohttp==3.8.4           # async http client/server framework (asyncio)
