@@ -1,0 +1,53 @@
+pytorch=1.12.1           # deep learning library
+pytorch-mutex=1.0=cuda   # pytorch-mutex
+torchaudio=0.12.1        # audio library for PyTorch
+torchvision=0.13.1       # image and video datasets and models for torch deep learning
+accelerate==0.16.0       # python package to accelerate PyTorch
+aiohttp==3.8.4           # async http client/server framework (asyncio)
+aiosignal==1.3.1         # asyncio signal handling
+async-timeout==4.0.2     # asyncio-compatible timeout class
+attrs==22.2.0            # classes without boilerplate
+bitsandbytes==0.37.0     # lightweight wrapper around CUDA custom functions
+cchardet==2.1.7          # universal character encoding detector
+chardet==5.1.0           # universal character encoding detector
+contourpy==1.0.7         # Python library for calculating contours of 2D quadrilateral grids (why is this here)
+cycler==0.11.0           # composable cycles
+filelock==3.9.0          # platform-independent file lock
+fonttools==4.38.0        # manipulate font files from Python
+frozenlist==1.3.3        # immutable list
+huggingface-hub==0.13.4  # HuggingFace Hub
+importlib-resources==5.12.0  # read resources from Python packages
+kiwisolver==1.4.4            # fast implementation of the Cassowary constraint solver
+matplotlib==3.7.0            # Python plotting package
+multidict==6.0.4             # multidict implementation
+openai==0.27.0               # OpenAI API (why is this here)
+packaging==23.0              
+psutil==5.9.4                # cross-platform process and system utilities module
+pycocotools==2.0.6           # COCO dataset tools
+pyparsing==3.0.9             # Python parsing module
+python-dateutil==2.8.2       # extensions to the standard Python datetime module
+pyyaml==6.0                  # YAML parser and emitter for Python 	
+regex==2022.10.31            # alternative regular expression module
+tokenizers==0.13.2           # fast and customizable tokenizers
+tqdm==4.64.1
+transformers==4.28.0
+timm==0.6.13
+spacy==3.5.1
+webdataset==0.2.48         # WebDataset is a PyTorch dataset implementation providing efficient access to datasets stored in POSIX tar archives or on HTTP servers.
+scikit-learn==1.2.2
+scipy==1.10.1
+yarl==1.8.2                 # URL parsing library (why is this here)
+zipp==3.14.0                # backport of pathlib-compatible object wrapper for zip files
+omegaconf==2.3.0            # OmegaConf is a hierarchical configuration system, with support for merging configurations from multiple sources (YAML config files, dataclasses/objects and CLI arguments) providing a consistent API regardless of how the configuration was created.
+opencv-python==4.7.0.72
+iopath==0.1.10
+decord==0.6.0               # Decord is a reverse procedure of Record. It provides convenient video slicing methods based on a thin wrapper on top of hardware accelerated video decoders
+tenacity==8.2.2             # Tenacity is an Apache 2.0 licensed general-purpose retrying library, written in Python, to simplify the task of adding retry behavior to just about anything.
+peft                        # Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters
+pycocoevalcap               # COCO caption evaluation
+sentence-transformers       # Sentence Embeddings with BERT & XLNet
+umap-learn                  # Uniform Manifold Approximation and Projection
+notebook                    # Jupyter Interactive Notebook (why is this here?)
+gradio==3.24.1              # Gradio is a Python library that allows you to quickly create UIs for prototyping your machine learning model in 3 minutes.
+gradio-client==0.0.8        # same as above
+wandb                       # Weights & Biases - developer tools for ML
